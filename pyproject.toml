@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Group3-awesome-calculator-pkg"
+version = "1.0.0"
+authors = [
+  { name="Daniel Edreira", github="https://github.com/dedreira" },
+]
+description = "A small example package for awesome calculator"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/dedreira/awesomecalculator"
+Issues = "https://github.com/dedreira/awesomecalculator/issues"
+Fork = "https://github.com/andrewgg1/awesomecalculator"
